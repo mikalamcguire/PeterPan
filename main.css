@@ -1,0 +1,59 @@
+body {
+color : #98fb98;
+background-color : #98fb98;
+background-image : url("greennebula.png");
+}
+h1 {
+color : #008000;
+background-color : #98fb98;
+border : black solid 2px;
+}
+h2 {
+color : #008000;
+background-color : #98fb98;
+}
+h3 {
+color : #008000;
+background-color : #98fb98;
+}
+p {
+color : #87ceeb;
+font-weight : 900;
+background : #e0ffff;
+border : black solid 4px;
+padding : 2em;
+}
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  text-align: center;
+  max-width: 90%;
+  margin: auto;
+  width: 100px;
+  float: left;
+}
+nav li {
+  display: inline-block;
+  width: 100px;
+  border: 1px solid black;
+  vertical-align: top;
+}
+<style type="text/css">
+  ul {list-style: none;padding: 0px;margin: 0px;}
+  ul li {display: block;position: relative;float: left;border:1px solid #000}
+  li ul {display: none;}
+  ul li a {display: block;background: #98fb98;padding: 5px 10px 5px 10px;text-decoration: none;
+           white-space: wrap;color: #000;}
+  ul li a:hover {background: #98fb98;}
+  li:hover ul {display: block; position: absolute;}
+  li:hover li {float: none;}
+  li:hover a {background: #98fb98;}
+  li:hover li a:hover {background: #98fb98;}
+  #drop-nav li ul li {border-top: 0px;}
+</style>
